@@ -6,7 +6,7 @@ export default function BasicButtons() {
     return (
         <div className='my-4'>
             <h5>Button MUI</h5>
-            <div className='flex flex-col w-fit gap-2 h-40 overflow-auto'>
+            <div className='flex gap-3'>
                 <Button variant="text">Text</Button>
                 <Button variant="contained">Contained</Button>
                 <Button variant="outlined">Outlined</Button>
